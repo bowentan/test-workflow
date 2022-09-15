@@ -1,8 +1,8 @@
 ============
-glob-linters
+Test
 ============
 
 
-.. image:: https://github.com/bowentan/test-workflow/test/badge.svg
+.. image:: https://github.com/bowentan/test-workflow/Test/badge.svg
     :target: https://github.com/bowentan/test-workflow/get-job
     :alt: Test info
