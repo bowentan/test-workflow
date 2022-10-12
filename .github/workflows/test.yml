@@ -16,4 +16,4 @@ jobs:
       - name: PyPi fetch
         run: |
           python -m pip install --upgrade pip
-          pip download glob-linters==0.1.0-rc.12
+          while true; do pip download glob-linters==0.1.0-rc.12; [ $? -eq 0 ] && return 0 || sleep 5; done
