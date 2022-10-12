@@ -16,4 +16,4 @@ jobs:
       - name: PyPi fetch
         run: |
           python -m pip install --upgrade pip
-          pip index versions --pre glob-linters==0.1.0-rc.11
+          pip download glob-linters==0.1.0-rc.12
