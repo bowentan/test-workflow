@@ -12,3 +12,4 @@ jobs:
           release-type: python
           signoff: Bowen Tan <bowentan78@gmail.com>
           prerelease: true
+          changelog-path: CHANGELOG.rst
