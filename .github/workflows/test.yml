@@ -9,9 +9,9 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - env:
-          GITHUB_TOKEN: ${{ secrets.Test }}
       - uses: google-github-actions/release-please-action@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.Test }}
         id: release
         with:
           release-type: python
@@ -19,6 +19,8 @@ jobs:
           prerelease: true
       - uses: actions/checkout@v2
       - name: tag major and minor versions
+        env:
+          GITHUB_TOKEN: ${{ secrets.Test }}
         if: ${{ steps.release.outputs.release_created }}
         run: |
           git config user.name github-actions[bot]
