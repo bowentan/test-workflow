@@ -1,9 +1,9 @@
 name: On create tag
 
 on:
-  push:
-    tags:
-      - "*"
+  release:
+    types:
+      - published
 jobs:
   on-create-tag:
     runs-on: ubuntu-latest
