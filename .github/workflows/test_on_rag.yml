@@ -1,6 +1,9 @@
 name: On create tag
 
-on: release
+on:
+  push:
+    tags:
+      - "*"
 
 jobs:
   on-create-tag:
