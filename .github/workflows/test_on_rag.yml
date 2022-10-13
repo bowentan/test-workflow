@@ -1,0 +1,14 @@
+name: On create tag
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  on-create-tag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+        run: |
+          echo hello
