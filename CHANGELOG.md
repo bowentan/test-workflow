@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.2-rc.9](https://github.com/bowentan/test-workflow/compare/v1.0.2-rc.8...v1.0.2-rc.9) (2022-10-13)
+
+
+### Features
+
+* add misc ([#38](https://github.com/bowentan/test-workflow/issues/38)) ([e6d36c5](https://github.com/bowentan/test-workflow/commit/e6d36c5817040332014f4fd1e4ab964b15c75f49))
+
+
+### Miscellaneous Chores
+
+* release 1.0.2-rc.9 ([a80d956](https://github.com/bowentan/test-workflow/commit/a80d956307bd2f24afd3f815f13e72a23a2321ab))
+
 ## [1.0.2-rc.8](https://github.com/bowentan/test-workflow/compare/v1.0.2-rc.7...v1.0.2-rc.8) (2022-10-13)
 
 
