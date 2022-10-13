@@ -9,21 +9,20 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: google-github-actions/release-please-action@v3
+      - name: release action
+        uses: google-github-actions/release-please-action@v3
         env:
-          pat-token: ${{ secrets.TEST }}
+          github-token: ${{ secrets.TEST }}
         id: release
         with:
           release-type: python
           signoff: Bowen Tan <bowentan78@gmail.com>
           prerelease: true
-      - uses: actions/checkout@v2
-        env:
-          pat-token: ${{ secrets.TEST }}
       - name: tag major and minor versions
-        env:
-          pat-token: ${{ secrets.TEST }}
         if: ${{ steps.release.outputs.release_created }}
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.TEST }}
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
