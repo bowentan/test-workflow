@@ -1,5 +1,6 @@
 # Changelog
 
+<<<<<<< HEAD
 ## [1.0.2-rc.12](https://github.com/bowentan/test-workflow/compare/v1.0.2-rc.9...v1.0.2-rc.12) (2022-10-13)
 
 
@@ -13,6 +14,8 @@
 * release 1.0.2-rc.10 ([85fc72a](https://github.com/bowentan/test-workflow/commit/85fc72ad80e177a7cfefb573beb323cfe59951b5))
 * release 1.0.2-rc.11 ([99f5e6f](https://github.com/bowentan/test-workflow/commit/99f5e6fac55ffbf22594293a449a3e5569715b4a))
 
+=======
+>>>>>>> 9247ddf (chore(main): release 1.0.2-rc.9 (#37))
 ## [1.0.2-rc.9](https://github.com/bowentan/test-workflow/compare/v1.0.2-rc.8...v1.0.2-rc.9) (2022-10-13)
 
 
