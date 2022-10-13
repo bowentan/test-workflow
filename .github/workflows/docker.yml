@@ -1,9 +1,9 @@
 name: Docker build publish
 
 on:
-  push:
-    branches:
-      - main
+  release:
+    types:
+      - released
 
 env:
   # Use docker.io for Docker Hub if empty
