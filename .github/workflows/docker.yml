@@ -39,10 +39,17 @@ jobs:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Parse version
+        id: parser
+        run: |
+          echo ${{ steps.meta.outputs.version }} | awk '{split($1, ver, "-"); split(substr(ver[1], 2, length(ver[1])), pub, "."); print "major="pub[1]" minor="pub[2]" patch="pub[3]}' >> $GITHUB_OUTPUT
+
       - name: Output meta info
         run: |
           echo "version: ${{ steps.meta.outputs.version }}"
-          echo "version.major: ${{ steps.meta.outputs.version.major }}"
+          echo "version.major: ${{ steps.parser.output.major }}"
+          echo "version.minor: ${{ steps.parser.output.minor }}"
+          echo "version.patch: ${{ steps.parser.output.patch }}"
           echo "tags: ${{ steps.meta.outputs.tags }}"
           echo "labels: ${{ steps.meta.outputs.labels }}"
       # - name: Build and push Docker image
