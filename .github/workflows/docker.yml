@@ -42,6 +42,7 @@ jobs:
       - name: Output meta info
         run: |
           echo "version: ${{ steps.meta.outputs.version }}"
+          echo "version.major: ${{ steps.meta.outputs.version.major }}"
           echo "tags: ${{ steps.meta.outputs.tags }}"
           echo "labels: ${{ steps.meta.outputs.labels }}"
       # - name: Build and push Docker image
