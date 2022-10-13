@@ -1,39 +1,11 @@
-# Changelog
-
-## [1.0.2-rc.12](https://github.com/bowentan/test-workflow/compare/v1.0.2-rc.9...v1.0.2-rc.12) (2022-10-13)
-
-
-### Features
-
-* add misc ([#38](https://github.com/bowentan/test-workflow/issues/38)) ([0757c16](https://github.com/bowentan/test-workflow/commit/0757c1682304eb2f0af80bb426fbb0992e8fcccb))
-
+## [1.0.2-rc.13](https://github.com/bowentan/test-workflow/compare/v1.0.2-rc.12...v1.0.2-rc.13) (2022-10-13)
 
 ### Miscellaneous Chores
 
-* release 1.0.2-rc.10 ([85fc72a](https://github.com/bowentan/test-workflow/commit/85fc72ad80e177a7cfefb573beb323cfe59951b5))
-* release 1.0.2-rc.11 ([99f5e6f](https://github.com/bowentan/test-workflow/commit/99f5e6fac55ffbf22594293a449a3e5569715b4a))
+-   release 1.0.2-rc.13 ([155985f](https://github.com/bowentan/test-workflow/commit/155985f0f3db03fc96f39663072e8ad402d74f39))
+-   release 1.0.2-rc.13 ([13ce41d](https://github.com/bowentan/test-workflow/commit/13ce41ded9cbf5a783bc4a1704462bdc04fdde61))
 
 ## [1.0.2-rc.9](https://github.com/bowentan/test-workflow/compare/v1.0.2-rc.8...v1.0.2-rc.9) (2022-10-13)
-
-<<<<<<< HEAD
-### Features
-
--   add misc ([#38](https://github.com/bowentan/test-workflow/issues/38)) ([e6d36c5](https://github.com/bowentan/test-workflow/commit/e6d36c5817040332014f4fd1e4ab964b15c75f49))
-
-### Miscellaneous Chores
-
--   release 1.0.2-rc.9 ([a80d956](https://github.com/bowentan/test-workflow/commit/a80d956307bd2f24afd3f815f13e72a23a2321ab))
-=======
-
-### Features
-
-* add misc ([#38](https://github.com/bowentan/test-workflow/issues/38)) ([e6d36c5](https://github.com/bowentan/test-workflow/commit/e6d36c5817040332014f4fd1e4ab964b15c75f49))
-
-
-### Miscellaneous Chores
-
-* release 1.0.2-rc.9 ([a80d956](https://github.com/bowentan/test-workflow/commit/a80d956307bd2f24afd3f815f13e72a23a2321ab))
->>>>>>> 9247ddf (chore(main): release 1.0.2-rc.9 (#37))
 
 ## [1.0.2-rc.8](https://github.com/bowentan/test-workflow/compare/v1.0.2-rc.7...v1.0.2-rc.8) (2022-10-13)
 
