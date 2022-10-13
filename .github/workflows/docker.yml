@@ -42,7 +42,7 @@ jobs:
       - name: Parse version
         id: parser
         run: |
-          s=($(echo "v1.0.0-rc.1" | awk '{split($1, ver, "-"); split(substr(ver[1], 2, length(ver[1])), pub, "."); print "major="pub[1], "minor="pub[2], "patch="pub[3]}')) >> $GITHUB_OUTPUT
+          $(echo "v1.0.0-rc.1" | awk '{split($1, ver, "-"); split(substr(ver[1], 2, length(ver[1])), pub, "."); print "major="pub[1], "minor="pub[2], "patch="pub[3]}') >> $GITHUB_OUTPUT
 
       - name: Output meta info
         run: |
