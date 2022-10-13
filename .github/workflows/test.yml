@@ -17,6 +17,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TEST }}
         id: release
         with:
+          token: ${{ secrets.TEST }}
           release-type: python
           signoff: Bowen Tan <bowentan78@gmail.com>
           prerelease: true
