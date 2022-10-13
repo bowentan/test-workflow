@@ -32,7 +32,7 @@ jobs:
           git push origin v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}
 
   build:
-    if: github.event_name != 'pull_request'
+    if: ${{ github.event_name != 'pull_request' }}
     needs: release-please
     runs-on: ubuntu-latest
     steps:
