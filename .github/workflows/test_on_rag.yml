@@ -5,12 +5,13 @@ on:
     types:
       - published
 
+env:
+  GITHUB_TOKEN: ${{ secrets.TEST }}
+
 jobs:
   on-create-tag:
     runs-on: ubuntu-latest
     steps:
-      # - env:
-      #     GITHUB_TOKEN: ${{ secrets.Test }}
       - name: echo
         run: |
           echo hello
