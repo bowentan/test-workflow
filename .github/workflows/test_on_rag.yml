@@ -1,9 +1,10 @@
 name: On create tag
 
 on:
-  push:
-    tags:
-      - "*"
+  workflow_run:
+    workflows: ["Release please"]
+    types:
+      - completed
 
 jobs:
   on-create-tag:
