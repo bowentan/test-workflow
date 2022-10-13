@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2-rc.29](https://github.com/bowentan/test-workflow/compare/v1.0.2-rc.28...v1.0.2-rc.29) (2022-10-13)
+
+
+### Miscellaneous Chores
+
+* release 1.0.2-rc.29 ([9421aa6](https://github.com/bowentan/test-workflow/commit/9421aa6f6663a90a9c31922a167fc6a0cb212f6e))
+
 ## [1.0.2-rc.28](https://github.com/bowentan/test-workflow/compare/v1.0.2-rc.27...v1.0.2-rc.28) (2022-10-13)
 
 
