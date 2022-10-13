@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 ### Miscellaneous Chores
 
 -   release 1.0.2-rc.13 ([155985f](https://github.com/bowentan/test-workflow/commit/155985f0f3db03fc96f39663072e8ad402d74f39))
@@ -145,3 +147,4 @@
 
 -   release 0.1.1-a.1 ([c963bb9](https://github.com/bowentan/test-workflow/commit/c963bb9ce0e042174f4b89307731c1d2de5a277f))
 -   release 0.1.1-a.2 ([19b028a](https://github.com/bowentan/test-workflow/commit/19b028ac5add7760c78f8481569ebd887c509125))
+>>>>>>> 61e388f (chore(main): release 1.0.2-rc.17)
