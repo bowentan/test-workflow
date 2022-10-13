@@ -5,9 +5,6 @@ on:
     types:
       - published
 
-env:
-  GITHUB_TOKEN: ${{ secrets.TEST }}
-
 jobs:
   on-create-tag:
     runs-on: ubuntu-latest
