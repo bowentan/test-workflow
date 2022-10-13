@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v3
         env:
-          GITHUB_TOKEN: ${{ secrets.TEST }}
+          pat-token: ${{ secrets.TEST }}
         id: release
         with:
           release-type: python
@@ -19,10 +19,10 @@ jobs:
           prerelease: true
       - uses: actions/checkout@v2
         env:
-          GITHUB_TOKEN: ${{ secrets.TEST }}
+          pat-token: ${{ secrets.TEST }}
       - name: tag major and minor versions
         env:
-          GITHUB_TOKEN: ${{ secrets.TEST }}
+          pat-token: ${{ secrets.TEST }}
         if: ${{ steps.release.outputs.release_created }}
         run: |
           git config user.name github-actions[bot]
