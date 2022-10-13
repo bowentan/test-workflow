@@ -42,17 +42,14 @@ jobs:
       - name: Parse version
         id: parser
         run: |
-          s=($(echo "v1.0.0-rc.1" | awk '{split($1, ver, "-"); split(substr(ver[1], 2, length(ver[1])), pub, "."); print "major="pub[1], "minor="pub[2], "patch="pub[3]}'))
-          echo "${s[0]}" >> $GITHUB_OUTPUT
-          echo "${s[1]}" >> $GITHUB_OUTPUT
-          echo "${s[2]}" >> $GITHUB_OUTPUT
+          s=($(echo "v1.0.0-rc.1" | awk '{split($1, ver, "-"); split(substr(ver[1], 2, length(ver[1])), pub, "."); print "major="pub[1], "minor="pub[2], "patch="pub[3]}')) >> $GITHUB_OUTPUT
 
       - name: Output meta info
         run: |
           echo "version: ${{ steps.meta.outputs.version }}"
-          echo "version.major: ${{ steps.parser.output.major }}"
-          echo "version.minor: ${{ steps.parser.output.minor }}"
-          echo "version.patch: ${{ steps.parser.output.patch }}"
+          echo "version.major: ${{ steps.parser.outputs.major }}"
+          echo "version.minor: ${{ steps.parser.outputs.minor }}"
+          echo "version.patch: ${{ steps.parser.outputs.patch }}"
           echo "tags: ${{ steps.meta.outputs.tags }}"
           echo "labels: ${{ steps.meta.outputs.labels }}"
       # - name: Build and push Docker image
