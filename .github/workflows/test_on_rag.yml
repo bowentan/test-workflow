@@ -4,8 +4,6 @@ on:
   release:
     types:
       - published
-env:
-  GITHUB_TOKEN: ${{ secrets.Test }}
 
 jobs:
   on-create-tag:
