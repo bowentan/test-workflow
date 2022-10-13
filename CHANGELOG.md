@@ -5,6 +5,13 @@
 -   release 1.0.2-rc.13 ([155985f](https://github.com/bowentan/test-workflow/commit/155985f0f3db03fc96f39663072e8ad402d74f39))
 -   release 1.0.2-rc.13 ([13ce41d](https://github.com/bowentan/test-workflow/commit/13ce41ded9cbf5a783bc4a1704462bdc04fdde61))
 
+## [1.0.2-rc.22](https://github.com/bowentan/test-workflow/compare/v1.0.2-rc.21...v1.0.2-rc.22) (2022-10-13)
+
+
+### Miscellaneous Chores
+
+* release 1.0.2-rc.22 ([5b62de0](https://github.com/bowentan/test-workflow/commit/5b62de01a455df23e24b0951795fcd38751a18f5))
+
 ## [1.0.2-rc.21](https://github.com/bowentan/test-workflow/compare/v1.0.2-rc.20...v1.0.2-rc.21) (2022-10-13)
 
 
