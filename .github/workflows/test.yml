@@ -5,13 +5,12 @@ on:
     branches:
       - main
 
-env:
-  GITHUB_TOKEN: ${{ secrets.Test }}
-
 jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
+      - env:
+          GITHUB_TOKEN: ${{ secrets.Test }}
       - uses: google-github-actions/release-please-action@v3
         id: release
         with:
