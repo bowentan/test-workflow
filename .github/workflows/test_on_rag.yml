@@ -1,9 +1,6 @@
 name: On create tag
 
-on:
-  release:
-    types:
-      - created
+on: release
 
 jobs:
   on-create-tag:
