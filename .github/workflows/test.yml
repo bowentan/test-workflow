@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  GITHUB_TOKEN: ${{ secrets.Test }}
+
 jobs:
   release-please:
     runs-on: ubuntu-latest
@@ -30,12 +33,3 @@ jobs:
           git tag -a v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }} -m "Release v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}"
           git push origin v${{ steps.release.outputs.major }}
           git push origin v${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}
-
-  build:
-    if: ${{ github.event.pull_request.merged }}
-    needs: release-please
-    runs-on: ubuntu-latest
-    steps:
-      - name: echo
-        run: |
-          echo "hello"
