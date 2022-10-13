@@ -42,7 +42,7 @@ jobs:
       - name: Parse version
         id: parser
         run: |
-          echo ${{ steps.meta.outputs.version }} | awk '{split($1, ver, "-"); split(substr(ver[1], 2, length(ver[1])), pub, "."); print "major="pub[1]" minor="pub[2]" patch="pub[3]}' >> $GITHUB_OUTPUT
+          echo ${{ steps.meta.outputs.version }} | awk '{split($1, ver, "-"); split(substr(ver[1], 2, length(ver[1])), pub, "."); print "major="pub[1]"\nminor="pub[2]"\npatch="pub[3]}' >> $GITHUB_OUTPUT
 
       - name: Output meta info
         run: |
