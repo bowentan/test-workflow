@@ -1,6 +1,6 @@
 .. 
     x-release-please-start-version
-Version: v2.1.0
+Version: v0.5.0
 .. 
     x-release-please-end
 
@@ -29,6 +29,6 @@ Version: v2.1.0
 
 ..
     x-release-please-start-major
-.. |major| replace:: 2
+.. |major| replace:: 0
 ..
     x-release-please-end
