@@ -12,6 +12,13 @@
 
 **Full Changelog**: https://github.com/bowentan/test-workflow/compare/v1.1.1...v1.1.2
 
+## [2.0.5-rc.1](https://github.com/bowentan/test-workflow/compare/v2.0.4-rc.1...v2.0.5-rc.1) (2022-10-15)
+
+
+### Bug Fixes
+
+* test ([92afb25](https://github.com/bowentan/test-workflow/commit/92afb25f1e80c2b5113b06a861065f0d969bd146))
+
 ## [2.0.4-rc.1](https://github.com/bowentan/test-workflow/compare/v2.0.3-rc.1...v2.0.4-rc.1) (2022-10-15)
 
 
