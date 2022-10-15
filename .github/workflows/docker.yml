@@ -46,6 +46,7 @@ jobs:
 
       - name: Output
         run: |
+          echo "${{ steps.meta.outputs.tags }}"
           echo "${{ steps.parser.outputs.tags }}"
 
       - name: Build and push Docker image
