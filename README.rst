@@ -1,6 +1,8 @@
-.. x-release-please-start-version
+.. 
+    x-release-please-start-version
 Version: v1.1.4
-.. x-release-please-end-version
+.. 
+    x-release-please-end
 
 .. code-block:: yaml
 
@@ -20,8 +22,13 @@ Version: v1.1.4
                 uses: actions/checkout@v3
                 with:
                   fetch-depth: 0
-
               - name: Linting
-                uses: bowentan/glob-linters@v0 # x-release-please-major
+                uses: bowentan/glob-linters@v|major|
                 env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+..
+    x-release-please-start-major
+.. |major| replace:: 1
+..
+    x-release-please-end
