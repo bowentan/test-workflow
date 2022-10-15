@@ -1,5 +1,11 @@
 # Changelog
 
+## What's Changed
+* Dev by @bowentan in https://github.com/bowentan/test-workflow/pull/81
+
+
+**Full Changelog**: https://github.com/bowentan/test-workflow/compare/v1.1.0...v1.1.1
+
 ## [1.1.0](https://github.com/bowentan/test-workflow/compare/v1.0.10...v1.1.0) (2022-10-15)
 
 
