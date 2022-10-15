@@ -1,5 +1,5 @@
 .. x-release-please-start-version
-Version: v1.1.3
+Version: v1.1.4
 .. x-release-please-end-version
 
 .. code-block:: yaml
