@@ -1,6 +1,6 @@
 .. 
     x-release-please-start-version
-Version: v0.5.0
+Version: v0.5.1
 .. 
     x-release-please-end
 
