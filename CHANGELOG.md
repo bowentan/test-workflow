@@ -12,6 +12,16 @@
 
 **Full Changelog**: https://github.com/bowentan/test-workflow/compare/v1.1.1...v1.1.2
 
+## [0.5.3](https://github.com/bowentan/test-workflow/compare/v0.5.2...v0.5.3) (2022-11-02)
+
+
+### Bug Fixes
+
+* create v4 v5 ([f5740c9](https://github.com/bowentan/test-workflow/commit/f5740c98a28f459f6696ebd35626a764796e62d9))
+* give here too ([c456bb3](https://github.com/bowentan/test-workflow/commit/c456bb3b2dfe88c26e7f5089b19ae32f15c0cd62))
+* given here ([#121](https://github.com/bowentan/test-workflow/issues/121)) ([c456bb3](https://github.com/bowentan/test-workflow/commit/c456bb3b2dfe88c26e7f5089b19ae32f15c0cd62))
+* this is confirm PR message  ([#123](https://github.com/bowentan/test-workflow/issues/123)) ([88005b6](https://github.com/bowentan/test-workflow/commit/88005b6ac0a5d550f5cc42b698fe34b9d7a449a8))
+
 ## [0.5.2](https://github.com/bowentan/test-workflow/compare/v0.5.1...v0.5.2) (2022-10-30)
 
 
