@@ -27,6 +27,12 @@
 
 **Full Changelog**: https://github.com/bowentan/test-workflow/compare/v0.6.0...v0.6.1
 
+## What's Changed
+* Create changelog.yml by @bowentan in https://github.com/bowentan/test-workflow/pull/137
+
+
+**Full Changelog**: https://github.com/bowentan/test-workflow/compare/v0.6.1...v0.7.0
+
 ## [0.5.3](https://github.com/bowentan/test-workflow/compare/v0.5.2...v0.5.3) (2022-11-02)
 
 
