@@ -12,6 +12,15 @@
 
 **Full Changelog**: https://github.com/bowentan/test-workflow/compare/v1.1.1...v1.1.2
 
+## What's Changed
+* feat: change to github type by @bowentan in https://github.com/bowentan/test-workflow/pull/127
+* Test issue by @bowentan in https://github.com/bowentan/test-workflow/pull/130
+* Test issue 2 by @bowentan in https://github.com/bowentan/test-workflow/pull/131
+* Fix #132 by @bowentan in https://github.com/bowentan/test-workflow/pull/133
+
+
+**Full Changelog**: https://github.com/bowentan/test-workflow/compare/v0.5.3...v0.6.0
+
 ## [0.5.3](https://github.com/bowentan/test-workflow/compare/v0.5.2...v0.5.3) (2022-11-02)
 
 
