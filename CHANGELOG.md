@@ -21,6 +21,12 @@
 
 **Full Changelog**: https://github.com/bowentan/test-workflow/compare/v0.5.3...v0.6.0
 
+## What's Changed
+* fix: #134 by @bowentan in https://github.com/bowentan/test-workflow/pull/135
+
+
+**Full Changelog**: https://github.com/bowentan/test-workflow/compare/v0.6.0...v0.6.1
+
 ## [0.5.3](https://github.com/bowentan/test-workflow/compare/v0.5.2...v0.5.3) (2022-11-02)
 
 
