@@ -33,6 +33,12 @@
 
 **Full Changelog**: https://github.com/bowentan/test-workflow/compare/v0.6.1...v0.7.0
 
+## What's Changed
+* fix: add by @bowentan in https://github.com/bowentan/test-workflow/pull/139
+
+
+**Full Changelog**: https://github.com/bowentan/test-workflow/compare/v0.7.0...v0.7.1
+
 ## [0.5.3](https://github.com/bowentan/test-workflow/compare/v0.5.2...v0.5.3) (2022-11-02)
 
 
