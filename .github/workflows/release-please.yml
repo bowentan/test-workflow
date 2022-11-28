@@ -3,7 +3,7 @@ name: Release Release
 on:
   push:
     branches:
-      - main
+      - hidden
 
 jobs:
   release-please:
