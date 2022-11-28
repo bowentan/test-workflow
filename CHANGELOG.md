@@ -51,6 +51,15 @@
 
 **Full Changelog**: https://github.com/bowentan/test-workflow/compare/v0.7.2...v0.7.3
 
+## What's Changed
+* chore(deps): bump python from 3.10.7-slim to 3.11.0-slim by @dependabot in https://github.com/bowentan/test-workflow/pull/147
+* chore(deps): bump cpplint from 1.5.0 to 1.6.1 by @dependabot in https://github.com/bowentan/test-workflow/pull/145
+
+## New Contributors
+* @dependabot made their first contribution in https://github.com/bowentan/test-workflow/pull/147
+
+**Full Changelog**: https://github.com/bowentan/test-workflow/compare/v0.7.3...v0.7.4
+
 ## [0.5.3](https://github.com/bowentan/test-workflow/compare/v0.5.2...v0.5.3) (2022-11-02)
 
 
