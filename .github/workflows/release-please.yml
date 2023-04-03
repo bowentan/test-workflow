@@ -3,7 +3,7 @@ name: Release Release
 on:
   push:
     branches:
-      - hidden
+      - main
 
 jobs:
   release-please:
@@ -12,14 +12,10 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         id: release
         with:
-          token: ${{ secrets.TEST }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           release-type: python
-          signoff: Bowen Tan <bowentan78@gmail.com>
           prerelease: true
-          changelog-notes-type: github
           changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
-          extra-files: |
-            README.rst
       - uses: actions/checkout@v3
       - name: tag major and minor versions
         if: ${{ steps.release.outputs.release_created && !contains(steps.release.outputs.tag_name, '-') }}
