@@ -31,4 +31,4 @@ Version: v0.7.4
     x-release-please-start-major
 .. |major| replace:: 0
 ..
-    x-release-please-end
+    x-release-please-endJJ init
