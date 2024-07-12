@@ -32,3 +32,5 @@ Version: v0.7.4
 .. |major| replace:: 0
 ..
     x-release-please-endJJ init
+JJ init
+hahaha
