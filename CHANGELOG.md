@@ -60,6 +60,26 @@
 
 **Full Changelog**: https://github.com/bowentan/test-workflow/compare/v0.7.3...v0.7.4
 
+## [1.0.0](https://github.com/bowentan/test-workflow/compare/v0.7.4...v1.0.0) (2024-07-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* API changed
+
+### Features
+
+* :sparkles: api change ([f3f40b9](https://github.com/bowentan/test-workflow/commit/f3f40b90e486cb5a9ce5e7763316656f8da097c9))
+* :zap: test break ([f26b1ea](https://github.com/bowentan/test-workflow/commit/f26b1eacb1e000fa2fdfcf27d69601cd97d9d2cc))
+
+
+### Bug Fixes
+
+* add 111 ([1a0d849](https://github.com/bowentan/test-workflow/commit/1a0d849e2f6577d3eac6efec2d16d77356d72034))
+* add 55 ([#152](https://github.com/bowentan/test-workflow/issues/152)) ([dd7b32a](https://github.com/bowentan/test-workflow/commit/dd7b32a37a6db790adb6e392a0c36548760c88b4))
+* add 666 ([#154](https://github.com/bowentan/test-workflow/issues/154)) ([6ae7127](https://github.com/bowentan/test-workflow/commit/6ae7127c8393bdcbffd6c2ea73169d35987a4136))
+* add 999 ([37dafa5](https://github.com/bowentan/test-workflow/commit/37dafa50a826137340d172e2dc2da8b4f33d34bf))
+
 ## [0.5.3](https://github.com/bowentan/test-workflow/compare/v0.5.2...v0.5.3) (2022-11-02)
 
 
